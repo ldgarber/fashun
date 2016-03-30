@@ -1,0 +1,7 @@
+!/usr/bin/env ruby
+
+require 'fashun'
+#use ARGV[0], ARGV[1], etc to get command line args. 
+#then call Fashun.(whatever) to use that method on the args
+#
+puts Fashun.search(ARGV[0])

@@ -41,7 +41,6 @@ class Fashun
   end 
 
   def self.detailed_search(index) 
-    puts "Product details for search result #{index}"
     puts @products[index - 1].name
     @products[index - 1].details
   end

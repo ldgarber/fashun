@@ -16,8 +16,6 @@ class Product
   def details
     @doc = Nokogiri::HTML(open("#{@link}"))
     @prod_details = @doc.css("#prodDtlBody").text.strip
-    @price = @doc.css.at(".full-price span").text
-    #puts @prod_details
-    puts @price
+    puts @prod_details
   end
 end

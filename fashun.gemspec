@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Quick search through multiple clothing stores'
   s.authors   = ['Leah Garber']
   s.email     = ''
-  s.files     = ["lib/fashun.rb"]
+  s.files     = ["lib/fashun.rb", "lib/fashun/product.rb"]
   s.homepage  = ""
   s.license   = ""
 end

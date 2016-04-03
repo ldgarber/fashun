@@ -38,6 +38,7 @@ class Fashun
     if input.between?(1, @products.length)
       self.detailed_search(input)
     end
+
   end 
 
   def self.detailed_search(index) 
